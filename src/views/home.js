@@ -23,7 +23,10 @@ const Home = (props) => {
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
               <span className="bodySmall">Home</span>
-              <span className="home-nav22 bodySmall">Features</span>
+              <span className="home-nav22">
+                <span className="bodySmall">Statistic</span>
+                <br></br>
+              </span>
               <span className="home-nav32 bodySmall">FAQ</span>
               <span className="home-nav42 bodySmall">Contact</span>
             </nav>
@@ -162,12 +165,12 @@ const Home = (props) => {
             <div className="home-container02">
               <input
                 type="text"
-                placeholder="Long Link"
+                placeholder="Enter here your long link"
                 className="home-textinput input"
               />
               <input
                 type="text"
-                placeholder="Customized Link (optional)"
+                placeholder="Your preferable path (optional)"
                 className="home-textinput1 input"
               />
               <button className="home-hero-button1 buttonFilled">
@@ -297,8 +300,8 @@ const Home = (props) => {
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text34 heading2">Common questions</h2>
-              <span className="home-text35 bodyLarge">
+              <h2 className="home-text36 heading2">Common questions</h2>
+              <span className="home-text37 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -366,7 +369,7 @@ const Home = (props) => {
           </div>
           <div className="home-separator"></div>
           <div className="home-container09">
-            <span className="bodySmall home-text38">
+            <span className="bodySmall home-text40">
               © 2024 CutU Links, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
