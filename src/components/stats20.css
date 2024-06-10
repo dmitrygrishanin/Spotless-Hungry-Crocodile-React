@@ -1,0 +1,115 @@
+.stats20-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.stats20-container1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.stats20-title {
+  text-align: center;
+}
+.stats20-content {
+  text-align: center;
+}
+.stats20-container2 {
+  width: 100%;
+}
+.stats20-container3 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.stats20-text01 {
+  text-align: center;
+}
+.stats20-text02 {
+  text-align: justify;
+}
+.stats20-text03 {
+  white-space: nowrap;
+}
+.stats20-container4 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.stats20-text05 {
+  text-align: center;
+}
+.stats20-text06 {
+  text-align: justify;
+}
+.stats20-text07 {
+  white-space: nowrap;
+}
+.stats20-container5 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.stats20-text09 {
+  text-align: center;
+}
+.stats20-text10 {
+  text-align: justify;
+}
+.stats20-text11 {
+  white-space: nowrap;
+}
+@media(max-width: 767px) {
+  .stats20-max-width {
+    flex-direction: column;
+  }
+  .stats20-container3 {
+    align-self: flex-start;
+  }
+  .stats20-text {
+    align-self: center;
+  }
+  .stats20-container4 {
+    align-self: flex-start;
+  }
+  .stats20-text04 {
+    align-self: center;
+  }
+  .stats20-container5 {
+    align-self: flex-start;
+  }
+  .stats20-text08 {
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .stats20-title {
+    align-self: center;
+  }
+  .stats20-text02 {
+    text-align: center;
+  }
+  .stats20-text06 {
+    text-align: center;
+  }
+  .stats20-text10 {
+    text-align: center;
+  }
+}

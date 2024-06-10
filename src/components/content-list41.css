@@ -1,0 +1,106 @@
+.content-list41-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.content-list41-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.content-list41-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.content-list41-ul {
+  align-items: flex-start;
+}
+.content-list41-li {
+  align-items: flex-start;
+}
+.content-list41-heading7 {
+  align-self: center;
+  text-align: center;
+}
+.content-list41-content7 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.content-list41-ul1 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.content-list41-text {
+  width: 958px;
+}
+.content-list41-text2 {
+  width: 958px;
+}
+.content-list41-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.content-list41-ul2 {
+  align-items: flex-start;
+}
+.content-list41-li03 {
+  align-items: flex-start;
+}
+.content-list41-heading1 {
+  align-self: center;
+  text-align: center;
+}
+.content-list41-content1 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.content-list41-ul3 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.content-list41-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.content-list41-ul4 {
+  align-items: flex-start;
+}
+.content-list41-li09 {
+  align-items: flex-start;
+}
+.content-list41-heading10 {
+  align-self: center;
+  text-align: center;
+}
+.content-list41-content10 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.content-list41-ul5 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+@media(max-width: 767px) {
+  .content-list41-ul1 {
+    padding-left: var(--dl-space-space-threeunits);
+  }
+  .content-list41-ul3 {
+    padding-left: var(--dl-space-space-threeunits);
+  }
+  .content-list41-ul5 {
+    padding-left: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 479px) {
+  .content-list41-ul1 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .content-list41-ul3 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .content-list41-ul5 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+}
